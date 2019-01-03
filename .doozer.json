@@ -10,8 +10,8 @@
     },
 
     "docs": {
-       // Only invoke docs target when building from master branch
-      "branch": "master",
+      // This build is trigged from doozer's CI script
+      "auto": false,
 
       "buildenv": "xenial-amd64",
       "builddeps": [
